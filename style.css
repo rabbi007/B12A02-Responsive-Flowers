@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body {
+    font-family: "Noto Serif", "Inter", serif;
+    line-height: 1.6;
+    background-color:  #F5F8FF;
+    color: #000000;
+    padding-bottom: 50px;
+
+}
+
+body p {
+    color: #00000080;
+    font-family: "Inter", serif;
+}
+
+body h1, h2, h3 {
+    font-family: "Noto Serif", serif;
+    color: #000000;
+
+}
+
+.font-noto-serif { font-family: "Noto Serif", serif;}
+.font-inter {font-family: "Inter", serif;}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0px;
+}
+
+header {
+    padding: 1rem 0;
+    margin-bottom: 30px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {  flex: 1; }
+
+.menu a {
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cart a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.2rem;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
