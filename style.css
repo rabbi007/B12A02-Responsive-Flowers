@@ -19,24 +19,24 @@ body h1, h2, h3 {
     color: #000000;
 }
 
-body p, h4 {
+body p, h4, li {
+    font-size: 1.5rem;
+    font-weight: 400;
     color: #00000080;
     font-family: "Inter", serif;
 }
 
-/* 
-.font-noto-serif { font-family: "Noto Serif", serif;}
-.font-inter {font-family: "Inter", serif;} */
+/* -------------------------- Navbar & Banner Section --------------------------------- */
+
+header {
+    padding: 1rem 0;
+    margin-bottom: 30px;
+}
 
 .container {
     max-width: 1140px;
     margin: auto;
     padding: 0px;
-}
-
-header {
-    padding: 1rem 0;
-    margin-bottom: 30px;
 }
 
 .nav-bar {
@@ -71,6 +71,8 @@ header {
     font-size: 3rem;
     margin-bottom: 1rem;
 }
+
+/* -------------------------- Plants Section --------------------------------- */
 
 .products-title> h3 {
     font-size: 3rem;
@@ -130,3 +132,65 @@ button {
 button:hover {
     background: #C62828;
 }
+
+/* -------------------------- Flower & Plants Lover Section --------------------------------- */
+
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 150px 0;
+    gap: 50px;
+}
+
+.image-section {
+    position: relative;
+    width: 50%;
+}
+
+.image-section img:first-child {
+    width: 100%;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    top: -130px;
+    left: 90%;
+    transform: translateX(-50%);
+    width: 300px;
+}
+
+.content {
+    padding-top: 100px;
+    width: 50%;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    padding-left: 20px;
+}
+
+.content li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+/* -------------------------- Latest Deals Section --------------------------------- */
+
+
+
+/* -------------------------- Join & Subscription Section --------------------------------- */
+
+
+
+
+/* -------------------------- Footer Section --------------------------------- */
